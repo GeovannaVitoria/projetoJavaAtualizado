@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    min-height: 500px;
+}
+
+.image{
+    background-image: url(../imgs/main-image.jpeg);
+    background-position: center;
+    background-size: 100%;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+main h1{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 45%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    position: absolute;
+    z-index: 1000;
+    top: 0; 
+    padding-top: 400px;
+    padding-left: 420px;
+    font-size: 18px;
+}
+
+main div img{
+    width: 100px;
+}
+
+.conteudo{
+    background-color: #0A3A5E;
+}
+
+.immunemed{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.immunemed div{
+    width: 350px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.immunemed div h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.immunemed img{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35);
+}
+
+.pacientes{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+.pacientes h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cards-pacientes{
+    border: 2px solid #60CAF0;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.relatorio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid #fff;
+}
+
+.relatorio a{
+    color: #fff;
+    background-color: #60CAF0;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.relatorio a:hover{
+    color: #0A3A5E;
+}
+
+.titulo-relatorio{
+    display: flex;
+}
+
+.bolinha{
+    background-color: #60CAF0;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.texto-tratamentos{
+    width: 50%;
+    text-align: center;
+}
+
+.texto-tratamentos textarea{
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    outline: none;
+    background-color: #F2EFEF;
+}
+
+footer{
+    background-color: #072a44;
+    color: #fff;
+    padding: 50px;
+    height: 30vh;
+}
+
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    margin: 0 auto;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+footer div a:hover{
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #072a44;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+}
