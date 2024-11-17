@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Altura total da viewport */
+}
+
+.image-section, .form-section {
+    flex: 1; /* Cada seção ocupa 50% do espaço */
+}
+
+.image-section {
+    background-image: url(../images/dna-java.jpg);
+    background-size: 100%;
+    background-position: center;
+	background-repeat: no-repeat;
+    border-radius: 0 60px 60px 0;
+	box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.form-section{
+    display: flex;
+	flex-direction: column;
+	gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-section h1{
+	color: #0A3A5E;
+	font-weight: normal;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ebe4e4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #CFCDCD;
+	margin-bottom: 20px;
+}
+
+.link-cadastro{
+	margin-top: 30px;
+}
+
+.link-cadastro a{
+	color: #0A3A5E;
+}
+
+button {
+    background-color:#0A3A5E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+	padding: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: rgba(96, 202, 240, 0.6);
+}
